@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="dainlee">
+    <meta name="description" content="portfolio">
+    <title>포트폴리오 - 이다인</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- BoxSlider CSS -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <!-- FullScroll CSS -->
+    <link rel="stylesheet" href="./css/full-page-scroll.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/portfolio_home.css">
+    <!--[if lt IE 9]><script src="./js/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="./js/respond.src.js"></script><![endif]-->
+    <!--[if lt IE 10]><script src="./js/PIE.js"></script><![endif]-->
+    <!-- JS Core 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/a9f8e9bd30.js" crossorigin="anonymous"></script>
+    <!-- BoxSlisder JS -->
+    <script src="./js/jquery.bxslider.js"></script>
+    <!-- FullScroll JS -->
+    <script src="./js/full-page-scroll.js"></script>
+</head>
+<body>
+    <div id="wrap" class="scroll_container">
+        <!-- 0. HOME -->
+        <section class="section1">
+            <header class="w1440 cf">
+                <h1 class="logo"><a href="JAVASCRIPT:VOID(0);"><img src="./images/favicon.png" alt="Logo"></a></h1>
+                <!-- Hamburger Toggle -->
+                <span class="menu_toggle_btn m14">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <!-- /Hamburger Toggle -->
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="https://feb-dain.github.io/portfolio/">Portfolio</a></li>
+                        <li><a href="https://feb-dain.github.io/portfolio/planning/portfolio_explanation.pdf">Portfolio Explanation</a></li>
+                        <li><a href="#1">Contact</a></li>
+                        <li><a href="#2">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="home_txt w1440">
+                <h3>
+                    HELLO,<br>
+                    I AM DAIN.
+                </h3>
+                <h3>
+                    WEB DESIGNER<br>
+                    <span>WEB PUBLISHER</span><br>
+                    FRONT-END
+                </h3>
+            </div>
+        </section>
+        <!-- /0. HOME -->
+
+        <!-- VIIII.section -->
+        <section class="section10">
+            <h2>CONTACT</h2>
+            <div class="section10_wrap w1440 cf">
+                <div class="m14 message">
+                    <form method="post" action="#" id="form">
+                        <div class="fields">
+                            <div class="field half">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+                            <div class="field half">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" required>
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <button type="button" id="submit" class="getintouch_btn actions">Send Message</button>
+                    </form>
+                </div>
+                <img src="./images/ar.jpg" width="240" alt="Profile" class="about">
+                <div class="contact_wrap">
+                    <dl class="alt m14 contact">
+                        <dt>Address</dt>
+                        <dd>서울특별시 강북구 &bull; Gangbuk-gu, Seoul,<br> Republic of Korea</dd>
+                        <dt>Phone</dt>
+                        <dd>(+82) 010-5186-8005</dd>
+                        <dt>Email</dt>
+                        <dd><a href="JAVASCRIPT:VOID(0);">feb.dain @ gmail.com</a></dd>
+                    </dl>
+                    <ul class="icons m14">
+                        <li><a href="JAVASCRIPT:VOID(0);" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                        <li><a href="JAVASCRIPT:VOID(0);" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                        <li><a href="JAVASCRIPT:VOID(0);" class="icon brands fa-facebook alt"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://feb-dain.github.io/portfolio/" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- /VIIII.section -->
+    </div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <!-- 페이지 JS -->
+    <script src="./js/portfolio.js"></script>
+</body>
+</html>
