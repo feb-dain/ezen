@@ -246,7 +246,6 @@ ul.icons li:last-child {
 
 
 
-
 @media screen and (max-width: 1680px) {
 
     .icon.major:before {
@@ -387,7 +386,7 @@ textarea:focus {
     .gnb li a {
         display: block;
         font-size: 1.2rem;
-        padding: 6px 5% 14px 0;
+        padding: 2vh 5vw 2vh 0;
     }
     .logo {
         position: absolute;
@@ -417,7 +416,20 @@ textarea:focus {
     }
     header, .home_txt {
         text-align: left;
-        left: 7%;
+        /* left: 7%; */
+    }
+    .home_txt h3 {
+        margin-left: 7vw;
+        color: #fff;
+        margin-top: 22.9vh;
+        font-size: 6.2vh;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.1;
+    }
+    .home_txt h3+h3 {
+        /* 34/963*100=3.530633=3.115265 */
+        margin-top: 3.3vh;
     }
     hr {
         position: absolute;
@@ -429,26 +441,7 @@ textarea:focus {
         width: 56%;
         opacity: 0.8;
     }
-    .bottom_gnb {
-        position: absolute;
-        left: 68%;
-        bottom: 6.45%;
-        z-index: 1;
-        font-family: 'Fjalla One',sans-serif;
-        color: #fff;
-        font-size: 20px;
-    }
-    .bottom_gnb li {
-        margin-left: 0;
-        margin-right: 15px;
-        transition: all 0.8s;
-        transform: scale(1);
-        /* 플롯 */
-        float: right;
-    }
-    .bottom_gnb li :last-child {
-        margin-right: 0;
-    }
+
     .m_mockup {
         display: block;
     }
@@ -662,7 +655,19 @@ textarea:focus {
 
 @media screen and (max-width:767px){
     /* GNB */
-    
+    .gnb {
+        text-align: right;
+        color: #fff;
+        background: #000;
+        width: 100%;
+        /* 포지션 */
+        position: absolute;
+        left: 0;
+        top: 11%;
+        z-index: 99999;
+        /* 로딩시 가려지도록 */
+        display: none;
+    }
     .gnb li {
         margin-left: 0;
         float: none;
@@ -671,8 +676,9 @@ textarea:focus {
     .gnb li a {
         display: block;
         font-size: 0.9rem;
-        padding: 4px 5% 10px 0;
+        padding: 2vh 5vw 2vh 0;
     }
+
     .logo {
         position: absolute;
         top: 4%;
@@ -686,15 +692,12 @@ textarea:focus {
     /* Hambuger Toggle */
     .menu_toggle_btn {
         position: absolute;
-        top: 4%;
-        left: 88%;
+        top: 5%;
+        left: 85%;
         z-index: 1;
         width: 28px;
         margin-top: 4px;
         cursor: pointer;
-    }
-    .menu_toggle_btn {
-        left: 80%;
     }
     header .menu_toggle_btn span {
         display: block;
@@ -703,18 +706,22 @@ textarea:focus {
         background: #fff;
     }
     header .menu_toggle_btn span:nth-child(2) {
-        margin: 8px 0;
+        margin: 6px 0;
     }
-    header, .home_txt {
-        text-align: left;
-        left: 7%;
-    }
-    .home_txt {
-        top: 31%;
-        z-index: 1;
-    }
+
+
     .home_txt h3 {
-        font-size: 32px;
+        margin-left: 7vw;
+        color: #fff;
+        margin-top: 25.9vh;
+        font-size: 5vh;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.1;
+    }
+    .home_txt h3+h3 {
+        /* 34/963*100=3.530633=3.115265 */
+        margin-top: 3.3vh;
     }
     hr {
         position: absolute;
@@ -726,27 +733,7 @@ textarea:focus {
         width: 64%;
         opacity: 0.8;
     }
-    .bottom_gnb {
-        position: absolute;
-        left: 68%;
-        bottom: 6.45%;
-        z-index: 1;
-        font-family: 'Fjalla One',sans-serif;
-        color: #fff;
-        font-size: 0.9rem;
-    }
-    .bottom_gnb li {
-        margin-top: 8px;
-        margin-left: 0;
-        margin-right: 15px;
-        transition: all 0.8s;
-        transform: scale(1);
-        /* 플롯 */
-        float: right;
-    }
-    .bottom_gnb li :last-child {
-        margin-right: 0;
-    }
+
     .m_mockup {
         display: block;
     }
