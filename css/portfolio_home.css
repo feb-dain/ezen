@@ -5,8 +5,6 @@ html, body {
 }
 /* 지정 너비 적용 클래스 */
 .m14 {
-    /* 18/963*100=1.869159 */
-    /* 18/1440*100=1.25 */
     margin: 0 1.25vw;
 }
 .w1440 {
@@ -58,7 +56,6 @@ header {
 .gnb li a {
     font-family: 'Fjalla One',sans-serif;
     color: #fff;
-    /* 20/963*100=2.076843 */
     font-size: 2.2vh;
 }
 .gnb li:hover {
@@ -79,7 +76,6 @@ header {
     line-height: 1.1;
 }
 .home_txt h3+h3 {
-    /* 34/963*100=3.530633=3.115265 */
     margin-top: 3.3vh;
 }
 .home_txt h3 span {
@@ -166,7 +162,6 @@ ul.icons li:last-child {
 }
 
 /* Icon */
-
 .icon {
     text-decoration: none;
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -416,7 +411,6 @@ textarea:focus {
     }
     header, .home_txt {
         text-align: left;
-        /* left: 7%; */
     }
     .home_txt h3 {
         margin-left: 7vw;
@@ -428,7 +422,6 @@ textarea:focus {
         line-height: 1.1;
     }
     .home_txt h3+h3 {
-        /* 34/963*100=3.530633=3.115265 */
         margin-top: 3.3vh;
     }
     hr {
@@ -459,7 +452,6 @@ textarea:focus {
         float: none;
     }
     h2 .title {
-        /* text-align: center; */
         font-size: 120px;
         font-family: 'Fjalla One',sans-serif;
         font-weight: 900;
@@ -468,7 +460,6 @@ textarea:focus {
         float: none;
     }
     h2 p {
-        /* text-align: center; */
         font-size: 1.125rem;
         padding-left: 0;
         font-weight: 300;
@@ -480,8 +471,6 @@ textarea:focus {
         padding-top: 80px;
     }
     .section2 p {
-        /* width: 45%;
-        text-align: center; */
         margin-top: 0;
     }
     .section7 h2 .title {
@@ -720,7 +709,6 @@ textarea:focus {
         line-height: 1.1;
     }
     .home_txt h3+h3 {
-        /* 34/963*100=3.530633=3.115265 */
         margin-top: 3.3vh;
     }
     hr {
@@ -751,7 +739,6 @@ textarea:focus {
         float: none;
     }
     h2 .title {
-        /* text-align: center; */
         font-size: 60px;
         font-family: 'Fjalla One',sans-serif;
         font-weight: 900;
@@ -760,7 +747,6 @@ textarea:focus {
         float: none;
     }
     h2 p {
-        /* text-align: center; */
         font-size: 14px;
         padding-left: 0;
         font-weight: 300;
@@ -778,8 +764,6 @@ textarea:focus {
         padding-top: 50px;
     }
     .section2 p {
-        /* width: 45%;
-        text-align: center; */
         margin-top: 0;
     }
     .section7 h2 .title {
