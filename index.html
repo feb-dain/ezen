@@ -1,70 +1,10 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="dainlee">
-    <meta name="description" content="portfolio">
-    <title>Portfolio | DAIN</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="apple-touch-icon=precomposed" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/reset.css">
-    <!-- FullScroll CSS -->
-    <link rel="stylesheet" href="./css/full-page-scroll.css">
-    <!-- 페이지 CSS -->
-    <link rel="stylesheet" href="./css/portfolio_home.css">
-    <!--[if lt IE 9]><script src="./js/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="./js/respond.src.js"></script><![endif]-->
-    <!--[if lt IE 10]><script src="./js/PIE.js"></script><![endif]-->
-    <!-- JS Core 파일 -->
-    <script src="./js/jquery-1.12.4.min.js"></script>
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <!-- JS 플러그인 파일 -->
-    <script src="./js/prefixfree.min.js"></script>
-    <script src="https://kit.fontawesome.com/a9f8e9bd30.js" crossorigin="anonymous"></script>
-    <!-- FullScroll JS -->
-    <script src="./js/full-page-scroll.js"></script>
-</head>
-<body>
-    <div id="wrap" class="scroll_container">
-        <!-- 0. HOME -->
-        <section class="section1">
-            <header class="w1440 cf">
-                <h1 class="logo"><a href="JAVASCRIPT:VOID(0);"><img src="./images/favicon.png" alt="Logo"></a></h1>
-                <!-- Hamburger Toggle -->
-                <span class="menu_toggle_btn m14">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-                <!-- /Hamburger Toggle -->
-                <nav>
-                    <ul class="gnb">
-                        <li><a href="https://feb-dain.github.io/portfolio/" target="_blank">Portfolio</a></li>
-                        <li><a href="https://feb-dain.github.io/portfolio/planning/portfolio_explanation.pdf" target="_blank">Portfolio Explanation</a></li>
-                        <!-- <li><a href="#1">Contact</a></li>
-                        <li><a href="#2">About</a></li> -->
-                    </ul>
-                </nav>
-            </header>
-            <div class="home_txt w1440">
-                <h3>
-                    HELLO,<br>
-                    I AM DAIN.
-                </h3>
-                <h3>
-                    WEB DESIGNER<br>
-                    <span>WEB PUBLISHER</span><br>
-                    FRONT-END
-                </h3>
-            </div>
-        </section>
-        <!-- /0. HOME -->
-    </div>
-    <!-- 페이지 JS -->
-    <script src="./js/portfolio.js"></script>
-</body>
-</html>
+---
+layout: default
+title: "Home"
+---
+
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
